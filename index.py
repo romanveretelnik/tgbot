@@ -51,7 +51,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     # InlineKeyboardButton("Текст кнопки", callback_data="дані") - для кнопок, які повертають дані боту.
     keyboard = [
         [
-            InlineKeyboardButton("🚀 Презентація", url=PRESENTATION_URL),
+            InlineKeyboardButton("🚀 Сайт", url=PRESENTATION_URL),
         ],
         [
             InlineKeyboardButton("💡 Про Проект", callback_data="about_project"),
